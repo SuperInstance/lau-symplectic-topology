@@ -1,0 +1,11 @@
+[package]
+name = "lau-symplectic-topology"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Symplectic topology: capacities, Lagrangian submanifolds, moment maps, Floer homology, and symplectic reduction"
+repository = "https://github.com/SuperInstance/lau-symplectic-topology"
+
+[dependencies]
+nalgebra = { version = "0.35.0", features = ["std", "serde-serialize"] }
+serde = { version = "1.0.228", features = ["derive"] }
